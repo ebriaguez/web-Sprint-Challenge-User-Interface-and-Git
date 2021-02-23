@@ -1,0 +1,46 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+I would say the following: Using semantic HTML is crucial to keeping yourself organized and if you were to work in a team, it would easily be legible. 
+In order to markup an HTML properly, you would need to know the tags and the heirarchy. There will always be one tag that is alway closest to the left
+margin, and as you move along with more tags in that current tag, the heirarchy continues in a downward motion.
+
+
+Name two big differences between display: block; and display: inline;.
+
+1: display: block; takes up the entire width of the row. Display: inline; only takes up the amount needed. For example,
+
+p {
+    display: block;
+}
+
+will generate... 
+
+------------------------- <p> ----------------------------
+------------------------- <p> ---------------------------- ...
+
+however,
+
+p {
+    display: inline;
+}
+
+will generate...
+
+<p> <p> ...
+
+2: Another difference is that block will always start on a new line while inline will allow multiple in one line
+
+
+What are the 4 areas of the box model?
+
+Margin, border, padding, and content
+
+
+
+While using flexbox, what axis does the following property work on: align-items: center?
+A cross axis
+
+
+Explain why git is valuable to a team of developers.
+
+Git allows a team to review each and every team member's updates or changes to their code. It keeps things organized and allows to go back to a specific section where one might need to review. 
